@@ -1,0 +1,19 @@
+{
+  "category":"MIRANDA LAMBERT STYLED BY TIFFANY GIFFORD",
+  "categoryNavigation":"miranda_lambert",
+  "cover":"images/worldoftheblonds/specialprojects/17_miranda_lambert/cover.jpg",
+
+  "index":"17",
+  "items":[
+    {
+      "src":"images/worldoftheblonds/specialprojects/17_miranda_lambert/WOTB-SPECIAL-PROJECTS-MIRANDA-LAMBERT-STYLED-BY-TIFFANY-GIFFORD-2.jpg",
+      "look":"1",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/17_miranda_lambert/WOTB-SPECIAL-PROJECTS-MIRANDA-LAMBERT-STYLED-BY-TIFFANY-GIFFORD.jpg",
+      "look":"2",
+      "caption":""
+    }
+  ]
+}

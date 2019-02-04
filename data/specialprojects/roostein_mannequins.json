@@ -1,0 +1,28 @@
+{
+  "category":"ROOTSTEIN MANNEQUINS THE BLONDS CO CREATED BY KEVIN ARPINO",
+  "categoryNavigation":"roostein_mannequins",
+  "cover":"images/worldoftheblonds/specialprojects/08_roostein_mannequins/cover.jpg",
+  "index":"8",
+  "items":[
+    {
+      "src":"images/worldoftheblonds/specialprojects/08_roostein_mannequins/IMG_7210.jpg",
+      "look":"1",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/08_roostein_mannequins/Screen-Shot-2015-09-03-at-8.00.48-AM.jpg",
+      "look":"2",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/08_roostein_mannequins/Screen-Shot-2015-09-11-at-12.25.47-PM.jpg",
+      "look":"3",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/08_roostein_mannequins/Screen-Shot-2015-09-11-at-12.27.06-PM.jpg",
+      "look":"4",
+      "caption":""
+    }
+  ]
+}

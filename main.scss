@@ -1,0 +1,30 @@
+
+
+// IMPORT PARTIALS
+@import "sass/00_reset";
+@import "sass/05_fonts";
+@import "sass/04_mixins";
+@import "sass/02_variables";
+
+@import "sass/03_nav";
+@import "sass/01_general";
+
+
+
+
+
+
+
+// IMPORT PAGES
+@import "about/about";
+@import "contact/contact";
+@import "intro/intro";
+@import "world/world";
+@import "social/social";
+
+
+
+
+
+// OVERRIDE
+@import "sass/06_override";

@@ -1,0 +1,28 @@
+{
+  "category":"CHRISTINA AGUILERA STYLED BY SIMONE HAROUCHE",
+  "categoryNavigation":"christina_aguilera",
+  "cover":"images/worldoftheblonds/specialprojects/16_christina_aguilera/cover.jpg",
+  "index":"16",
+  "items":[
+    {
+      "src":"images/worldoftheblonds/specialprojects/16_christina_aguilera/celebrity_073.jpg",
+      "look":"1",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/16_christina_aguilera/christina_aguilera__back_to_basics_promos__30.jpg",
+      "look":"2",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/16_christina_aguilera/Christina_Aguilera_The_Voice.jpg",
+      "look":"3",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/16_christina_aguilera/Christina-Aguilera---Back-To-Basics---Booklet-(10-14).jpg",
+      "look":"4",
+      "caption":""
+    }
+  ]
+}

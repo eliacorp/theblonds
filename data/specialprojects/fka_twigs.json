@@ -1,0 +1,19 @@
+{
+  "category":"FKA TWIGS STYLED BY KAREN CLARKSON",
+  "categoryNavigation":"fka_twigs",
+  "cover":"images/worldoftheblonds/specialprojects/10_fka_twigs/cover.jpg",
+
+  "index":"10",
+  "items":[
+    {
+      "src":"images/worldoftheblonds/specialprojects/10_fka_twigs/FKA-TWIGS-CONGREGATA.jpg",
+      "look":"1",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/10_fka_twigs/o-FKA-TWIGS-CONGREGATA-facebook.jpg",
+      "look":"2",
+      "caption":""
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "category":"NICKI MINAJ STYLED BY RUSHKA BERGMAN",
+  "categoryNavigation":"nicki_minaj",
+  "cover":"images/worldoftheblonds/specialprojects/02_nicky_minaj/cover.jpg",
+
+  "index":"2",
+  "items":[
+    {
+      "src":"images/worldoftheblonds/specialprojects/02_nicki_minaj/16406202413_7e67118a59_h.jpg",
+      "look":"1",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/02_nicki_minaj/20687190561_c652e9b88a_h.jpg",
+      "look":"2",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/02_nicki_minaj/Nicki-Minaj--Pinkprint-Tour-in-Vancouver--09.jpg",
+      "look":"3",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/02_nicki_minaj/Nicki-Minaj--The-Pinkprint-Tour--58.jpg",
+      "look":"4",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/02_nicki_minaj/original.2IEeQLmK2rq-OcLWQJ7cM4DSyW_HZapjDTVBw5hOkZk.jpg",
+      "look":"5",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/02_nicki_minaj/original.BPgbcehwzeHJXcx_t1UX9A_h6hX4s1M7ZhbMNZgAGvM.jpg",
+      "look":"6",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/02_nicki_minaj/Screen-Shot-2015-08-03-at-11.22.31-PM.jpg",
+      "look":"7",
+      "caption":""
+    }
+
+  ]
+}

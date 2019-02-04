@@ -1,0 +1,302 @@
+
+[
+                {
+                  "section_title":"Intro",
+                  "navigation":"intro",
+                  "video":""
+                },
+                {
+                  "section_title":"World of the blonds",
+                  "navigation":"worldoftheblonds",
+                  "sections": [
+                    {
+                      "category":"collections",
+                      "categoryName":"collections",
+                      "events":
+                      [
+                        {
+                          "name":"fw16",
+                          "nav_name":"fw16",
+                          "cover":"images/worldoftheblonds/collections/fw16/cover.jpg",
+                          "orderDate":"37",
+                          "orderSection":"1"
+                        },
+                        {
+                          "name":"ss16",
+                          "nav_name":"ss16",
+                          "cover":"images/worldoftheblonds/collections/ss16/cover.jpg",
+                          "orderDate":"34",
+                          "orderSection":"2"
+                        },
+                        {
+                          "name":"ss15",
+                          "nav_name":"ss15",
+                          "cover":"images/worldoftheblonds/collections/ss15/cover.jpg",
+                          "orderDate":"26",
+                          "orderSection":"3"
+                        },
+                        {
+                          "name":"fw15",
+                          "nav_name":"fw15",
+                          "cover":"images/worldoftheblonds/collections/fw15/cover.jpg",
+                          "orderDate":"33",
+                          "orderSection":"4"
+                        },
+                        {
+                          "name" : "fw14",
+                          "nav_name":"fw14",
+                          "cover" : "images/worldoftheblonds/collections/fw14/cover.jpg",
+                          "orderDate":"32",
+                          "orderSection":"5"
+                        },
+                        {
+                          "name":"ss14",
+                          "nav_name":"ss14",
+                          "cover":"images/worldoftheblonds/collections/ss14/cover.jpg",
+                          "orderDate":"31",
+                          "orderSection":"6"
+                        }
+                      ]
+                    },
+                    {
+                      "category":"editorials",
+                      "categoryName":"editorials",
+                      "events":
+                      [
+                        {
+                          "name":"editorial",
+                          "nav_name":"01_vogue",
+                          "cover":"images/worldoftheblonds/editorials/01_vogue/cover.jpg",
+                          "orderDate": 36,
+                          "orderSection":"1"
+                        },
+                        {
+                          "name":"editorial",
+                          "nav_name":"02",
+                          "cover":"images/worldoftheblonds/editorials/02/cover.jpg",
+                          "orderDate":30,
+                          "orderSection":"2"
+                        },
+                        {
+                          "name":"editorial",
+                          "nav_name":"03",
+                          "cover":"images/worldoftheblonds/editorials/03/cover.jpg",
+                          "orderDate": 29,
+                          "orderSection":"3"
+                        },
+                        {
+                          "name":"editorial",
+                          "nav_name":"04_clips",
+                          "cover":"images/worldoftheblonds/editorials/04_clips/cover.jpg",
+                          "orderDate":28,
+                          "orderSection":"4"
+                        },
+                        {
+                          "name":"editorial",
+                          "nav_name":"05_clips",
+                          "cover":"images/worldoftheblonds/editorials/05_before_misc/cover.jpg",
+                          "orderDate":27,
+                          "orderSection":"5"
+                        }
+                      ]
+                    },
+                    {
+                      "category":"specialprojects",
+                      "categoryName":"collaborations",
+                      "events":
+                      [
+                        {
+                          "name":"miley cyrus",
+                          "nav_name":"miley_cyrus",
+                          "cover":"images/worldoftheblonds/specialprojects/01_miley_cyrus/cover.jpg",
+                          "orderDate":35,
+                          "orderSection":"1"
+                        },
+                        {
+                          "name":"nicki minaj",
+                          "nav_name":"nicki_minaj",
+                          "cover":"images/worldoftheblonds/specialprojects/02_nicki_minaj/cover.jpg",
+                          "orderDate":25,
+                          "orderSection":"2"
+                        },
+                        {
+                          "name":"beyoncé",
+                          "nav_name":"beyonce",
+                          "cover":"images/worldoftheblonds/specialprojects/03_beyonce/cover.jpg",
+                          "orderDate":24,
+                          "orderSection":"3"
+                        },
+                        {
+                          "name":"madonna",
+                          "nav_name":"madonna",
+                          "cover":"images/worldoftheblonds/specialprojects/04_madonna/cover.jpg",
+                          "orderDate":23,
+                          "orderSection":"4"
+                        },
+                        {
+                          "name":"kylie minogue",
+                          "nav_name":"kylie_minogue",
+                          "cover":"images/worldoftheblonds/specialprojects/05_kylie_minogue/cover.jpg",
+                          "orderDate":22,
+                          "orderSection":"5"
+                        },
+                        {
+                          "name":"jennifer lopez",
+                          "nav_name":"jennifer_lopez",
+                          "cover":"images/worldoftheblonds/specialprojects/06_jennifer_lopez/cover.jpg",
+                          "orderDate":21,
+                          "orderSection":"6"
+                        },
+                        {
+                          "name":"ariana grande",
+                          "nav_name":"ariana_grande",
+                          "cover":"images/worldoftheblonds/specialprojects/07_ariana_grande/cover.jpg",
+                          "orderDate":20,
+                          "orderSection":"7"
+                        },
+                        {
+                          "name":"roostein mannequins",
+                          "nav_name":"roostein_mannequins",
+                          "cover":"images/worldoftheblonds/specialprojects/08_roostein_mannequins/cover.jpg",
+                          "orderDate":19,
+                          "orderSection":"8"
+                        },
+                        {
+                          "name":"bette midler",
+                          "nav_name":"bette_midler",
+                          "cover":"images/worldoftheblonds/specialprojects/09_bette_midler/cover.jpg",
+                          "orderDate":18,
+                          "orderSection":"9"
+                        },
+                        {
+                          "name":"fka twigs",
+                          "nav_name":"fka_twigs",
+                          "cover":"images/worldoftheblonds/specialprojects/10_fka_twigs/cover.jpg",
+                          "orderDate":17,
+                          "orderSection":"10"
+                        },
+                        {
+                          "name":"mattel barbie",
+                          "nav_name":"mattel_barbie",
+                          "cover":"images/worldoftheblonds/specialprojects/11_mattel_barbie/cover.jpg",
+                          "orderDate":16,
+                          "orderSection":"11"
+                        },
+                        {
+                          "name":"rihanna",
+                          "nav_name":"rihanna",
+                          "cover":"images/worldoftheblonds/specialprojects/12_rihanna/cover.jpg",
+                          "orderDate":15,
+                          "orderSection":"12"
+                        },
+                        {
+                          "name":"katy perry",
+                          "nav_name":"katy_perry",
+                          "cover":"images/worldoftheblonds/specialprojects/13_katy_perry/cover.jpg",
+                          "orderDate":14,
+                          "orderSection":"13"
+                        },
+                        {
+                          "name":"britney spears",
+                          "nav_name":"britney_spears",
+                          "cover":"images/worldoftheblonds/specialprojects/14_britney_spears/cover.jpg",
+                          "orderDate":13,
+                          "orderSection":"14"
+                        },
+                        {
+                          "name":"kesha",
+                          "nav_name":"kesha",
+                          "cover":"images/worldoftheblonds/specialprojects/15_kesha/cover.jpg",
+                          "orderDate":12,
+                          "orderSection":"15"
+                        },
+                        {
+                          "name":"christina aguilera",
+                          "nav_name":"christina_aguilera",
+                          "cover":"images/worldoftheblonds/specialprojects/16_christina_aguilera/cover.jpg",
+                          "orderDate":11,
+                          "orderSection":"16"
+                        },
+                        {
+                          "name":"miranda lambert",
+                          "nav_name":"miranda_lambert",
+                          "cover":"images/worldoftheblonds/specialprojects/17_miranda_lambert/cover.jpg",
+                          "orderDate":10,
+                          "orderSection":"17"
+                        },
+                        {
+                          "name":"jolin tsai",
+                          "nav_name":"jolin_tsai",
+                          "cover":"images/worldoftheblonds/specialprojects/18_jolin_tsai/cover.jpg",
+                          "orderDate":9,
+                          "orderSection":"18"
+                        },
+                        {
+                          "name":"shania twain",
+                          "nav_name":"shania_twain",
+                          "cover":"images/worldoftheblonds/specialprojects/19_shania_twain/cover.jpg",
+                          "orderDate":8,
+                          "orderSection":"19"
+                        },
+                        {
+                          "name":"selena gomez",
+                          "nav_name":"selena_gomez",
+                          "cover":"images/worldoftheblonds/specialprojects/21_selena_gomez/cover.jpg",
+                          "orderDate":6,
+                          "orderSection":"21"
+                        },
+                        {
+                          "name":"adam lambert",
+                          "nav_name":"adam_lambert",
+                          "cover":"images/worldoftheblonds/specialprojects/22_adam_lambert/cover.jpg",
+                          "orderDate":5,
+                          "orderSection":"22"
+                        },
+                        {
+                          "name":"carrie underwood",
+                          "nav_name":"carrie_underwood",
+                          "cover":"images/worldoftheblonds/specialprojects/23_carrie_underwood/cover.jpg",
+                          "orderDate":4,
+                          "orderSection":"23"
+                        },
+                        {
+                          "name":"fergie",
+                          "nav_name":"fergie",
+                          "cover":"images/worldoftheblonds/specialprojects/25_fergie_black_eyed_peas/cover.jpg",
+                          "orderDate":3,
+                          "orderSection":"24"
+                        },
+                        {
+                          "name":"hilary duff",
+                          "nav_name":"hilary_duff",
+                          "cover":"images/worldoftheblonds/specialprojects/26_hilary_duff/cover.jpg",
+                          "orderDate":2,
+                          "orderSection":"25"
+                        },
+                        {
+                          "name":"collaborations",
+                          "nav_name":"collaborations",
+                          "cover":"images/worldoftheblonds/specialprojects/27_misc/cover.jpg",
+                          "orderDate":1,
+                          "orderSection":"26"
+                        }
+                      ]
+                    }
+                  ]
+
+                },
+                  {
+                    "section_title":"about",
+                    "navigation":"about"
+                  },
+                  {
+                    "section_title":"contact",
+                    "navigation":"contact"
+                  },
+                  {
+                    "section_title": "social",
+                    "navigation":"social"
+                  }
+
+
+]

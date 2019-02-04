@@ -1,0 +1,18 @@
+{
+  "category":"ADAM LAMBERT",
+  "categoryNavigation":"adam_lambert",
+  "cover":"images/worldoftheblonds/specialprojects/22_adam_lambert/cover.jpg",
+  "index":"22",
+  "items":[
+    {
+      "src":"images/worldoftheblonds/specialprojects/22_adam_lambert/158450929.jpg",
+      "look":"1",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/22_adam_lambert/Adam_Lambert_Kiev_2013_0910.jpg",
+      "look":"2",
+      "caption":""
+    }
+  ]
+}

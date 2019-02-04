@@ -1,0 +1,59 @@
+<div class="anchor anchor-social" id="socialHash" ng-controller="socialCtrl">
+
+  <div class="social-link">
+    <div class="social-link-content">
+      <p class="social-link-content-p">
+        @theblondsny
+        <a class="social-link-content-a" href="https://www.instagram.com/theblondsny/" target="_blank" ng-click>open instagram</a>
+      </p>
+    </div>
+  </div>
+
+
+  <div class="social-wrapper">
+      <ul class="social-grid" instaimageclick-Directive >
+        <li ng-repeat="p in instaTotal | filter: query| limitTo:totalDisplayed track by $index " class="social-li" ng-show="([p] | filter: query).length > 0" ng-mouseenter="show_description=true; activateSparkle_social($index)" ng-mouseleave="show_description=false; stopSparkle_social()">
+
+          <!-- <div ng-show="journalLoading" class="images-loader-div">
+            <div class="grey-placeholder"  alt="Loading icon"></div>
+          </div> -->
+
+          <div class="social-images-loader-div" id="social-loader-{{$index}}">
+              <div class="social-loader">
+                <img class="social-loader-image" src="images/loader/spinner.svg" width="80" alt="">
+              </div>
+          </div>
+
+          <video class="social-image" autoplay loop muted ng-if="p.videos.standard_resolution.url && !isMobileDevice" ng-hide="show_description" ng-src="{{p.videos.low_bandwidth.url | trustUrl}}" poster="{{p.images.standard_resolution.url}}" imageonload></video>
+          <div class="social-image" id="{{$index}}" style="background-image: url('{{p.images.standard_resolution.url}}')" ng-hide="show_description" ng-if="!p.videos.standard_resolution.url || isMobileDevice" social-style-parent imageonload></div>
+
+          <!-- <img social-style-parent class="social-image" src="{{p.images.low_resolution.url}}" ng-hide="show_description" ng-if="p.videos.standard_resolution.url && isMobileDevice"> -->
+
+          <!-- ng-class="{'descSocial': show_description}" -->
+
+          <div class="social-description" id="insta-{{$index}}">
+            <div class="social-description-content">
+              <!-- <p class="social-description-p">{{p.caption.text}}</p> -->
+              <div class="social-description-link"><a href="{{p.link}}" target="_blank">view on instagram</a></div>
+
+            </div>
+          </div>
+
+
+        </li>
+<!--
+        <li class="load-more-li" ng-hide="hideLoadMore">
+          <div class="load-more-button" ng-click="loadMore()" ng-hide="noMore">
+            <p class="load-more-button-p">Load more</p>
+          </div>
+        </li> -->
+
+
+      </ul>
+
+  </div>
+
+
+
+
+</div>

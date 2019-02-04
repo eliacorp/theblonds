@@ -1,0 +1,29 @@
+{
+  "category":"ARIANA GRANDE STYLED BY SAMMY AND JUDY",
+  "categoryNavigation":"ariana_grande",
+  "cover":"images/worldoftheblonds/specialprojects/07_ariana_grande/cover.jpg",
+  "index":"7",
+  "items":[
+    {
+      "src":"images/worldoftheblonds/specialprojects/07_ariana_grande/17-ariana-grande-theblonds.jpg",
+      "look":"1",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/07_ariana_grande/454143112-1.jpg",
+      "look":"2",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/07_ariana_grande/ariana-grande.jpg",
+      "look":"3",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/07_ariana_grande/o-ARIANA-GRANDE-900.jpg",
+      "look":"4",
+      "caption":""
+    }
+
+  ]
+}

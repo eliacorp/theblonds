@@ -1,0 +1,550 @@
+$fade-in: 0.4s;
+$fade-out: 0.4s;
+
+.corner-logo{
+  display: block;
+  transform: translateY(-100px);
+  // -webkit-transform: translateZ(0);
+  width: 200px;
+  height: 100px;
+  position: fixed;
+  left: $margin-sides;
+  top: 0;
+  line-height: 100%;
+  text-align: center;
+  z-index: $z-corner-logo;
+  -webkit-backface-visibility:hidden; /*Most Important*/
+
+  .logo-wrapper {
+    display: block;
+    vertical-align: middle;
+    width: 200px;
+    height: 100px;
+    // -webkit-transform: translateZ(0);
+    @include respond-to-devices(){
+      width: 170px;
+    }
+    svg{
+      width: 100%;
+      height: 100%;
+      // -webkit-transform: translateZ(0);
+    }
+  }
+}
+
+
+.navigation{
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #000000;
+  z-index: $z-nav;
+  -webkit-transform: translateZ(0);
+  // border-bottom: 1px solid #000000;
+  @include respond-to(phone){
+    height: 200px;
+    border-bottom: none;
+    overflow-x: scroll;
+  }
+
+
+  .navigation-ul{
+    width: 485px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: -242.5px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    // @include respond-to(touching-nav){
+    //   width: 412px;
+    //   margin-left: -206px;
+    // }
+    @include respond-to(phone-device){
+      left: 0;
+      margin:0;
+      // border-bottom: 1px solid $grey;
+    }
+    .navigation-li{
+      position: relative;
+      height: 100%;
+      display: inline-block;
+      width: auto;
+      margin-right: 30px;
+      top: 0;
+      // @include respond-to(touching-nav){
+      //   margin-right: 2vw;
+      // }
+      &:nth-child(5){
+        margin-right: 0px;
+      }
+      // @include respond-to-devices(){
+      //     margin-right: 2vw;
+      // }
+      .navigation-a{
+        .navigation-text{
+          font-family: Futura;
+          position: relative;
+          display: block;
+          vertical-align: middle;
+          line-height: 100px;
+          font-size: $font-size-nav;
+          // @include respond-to(touching-nav){
+          //   margin-right: $font-size-nav-mobile;
+          // }
+          @include hover-effect-color-gold();
+          @include respond-to-devices(){
+            font-size: $font-size-nav-mobile;
+          }
+        }
+      }
+    }
+  }
+}
+
+.activeNav{
+  color: $gold !important;
+}
+
+.introActive{
+  background-color: transparent;
+  color: #FFFFFF;
+    border: none;
+  a{
+    p{
+      color: #FFFFFF;
+    }
+  }
+}
+
+
+.corner-logo.cornerLogoActive{
+  transform: translateY(0px);
+  transition: all 0.5s ease;
+}
+
+
+.introMobileActive{
+  background-color: transparent;
+  top: 0 !important;
+  a{
+    p{
+      color: #FFFFFF;
+    }
+  }
+}
+
+.introMobileActive > .navigation-ul{
+  border: none;
+}
+
+
+
+
+
+.nav-follow{
+  position: fixed;
+  top: 0;
+  height: 100px;
+  right: $margin-sides;
+  width: auto;
+  margin-left: -100px;
+  z-index: $z-intro-follow;
+  a{
+    width: 100%;
+    p{
+      width: 100%;
+      text-align: center;
+      font-family: Futura;
+      display: block;
+      vertical-align: middle;
+      line-height: 100px;
+      font-size: $font-size-nav;
+      color: #FFFFFF;
+      @include hover-effect-color-gold();
+    }
+  }
+
+  .nav-follow-icons{
+    position: fixed;
+    top:0;
+    z-index: $z-follow-icons;
+    background-color: #000000;
+    width: 102px;
+    a{
+      width: 34px;
+      float: left;
+      text-align: center;
+      font-family: Futura;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 100px;
+      font-size: $font-size-nav;
+      color: #FFFFFF;
+      @include hover-effect-color-gold();
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+@keyframes navUp {
+  0% { top: 0px; }
+  100% { top: -100px; }
+}
+
+@-webkit-keyframes navUp {
+  0% { top: 0px; }
+  100% { top: -100px; }
+}
+
+@-moz-keyframes navUp {
+  0% { top: 0px; }
+  100% { top: -100px; }
+}
+
+@-ms-keyframes navUp {
+  0% { top: 0px; }
+  100% { top: -100px; }
+}
+
+@-o-keyframes navUp {
+  0% { top: 0px; }
+  100% { top: -100px; }
+}
+
+
+
+@keyframes navDown {
+  0% { top: -100px; }
+  100% { top: 0px; }
+}
+
+@-webkit-keyframes navDown {
+  0% { top: -100px; }
+  100% { top: 0px; }
+}
+
+@-moz-keyframes navDown {
+  0% { top: -100px; }
+  100% { top: 0px; }
+}
+
+@-ms-keyframes navDown {
+  0% { top: -100px; }
+  100% { top: 0px; }
+}
+
+@-o-keyframes navDown {
+  0% { top: -100px; }
+  100% { top: 0px; }
+}
+
+
+
+
+
+
+.navigation.mobile{
+  top:-100px;
+}
+
+.navigation{
+  top: 0px;
+}
+
+.nav-pop{
+  display: none;
+  z-index: $z-nav-pop;
+}
+
+.mobile.nav-pop{
+  display: block;
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  right: $margin-sides;
+  top: 30px;
+  svg{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+
+$animation-speed: 0.6s;
+
+.navigation.mobile-add.mobile-add-active{
+  -webkit-animation: navUp $animation-speed ease;
+  -moz-animation: navUp $animation-speed ease;
+  -ms-animation: navUp $animation-speed ease;
+  -o-animation: navUp $animation-speed ease;
+  animation: navUp $animation-speed ease;
+}
+
+.navigation.mobile-remove.mobile-remove-active{
+  -webkit-animation: navDown $animation-speed ease;
+  -moz-animation: navDown $animation-speed ease;
+  -ms-animation: navDown $animation-speed ease;
+  -o-animation: navDown $animation-speed ease;
+  animation: navDown $animation-speed ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes mainUp {
+  0% { top: 100px; }
+  100% { top: 0px; }
+}
+
+@-webkit-keyframes mainUp {
+  0% { top: 100px; }
+  100% { top: 0px; }
+}
+
+@-moz-keyframes mainUp {
+  0% { top: 100px; }
+  100% { top: 0px; }
+}
+
+@-ms-keyframes mainUp {
+  0% { top: 100px; }
+  100% { top: 0px; }
+}
+
+@-o-keyframes mainUp {
+  0% { top: 100px; }
+  100% { top: 0px; }
+}
+
+
+
+@keyframes mainDown {
+  0% { top: 0px; }
+  100% { top: 100px; }
+}
+
+@-webkit-keyframes mainDown {
+  0% { top: 0px; }
+  100% { top: 100px; }
+}
+
+@-moz-keyframes mainDown {
+  0% { top: 0px; }
+  100% { top: 100px; }
+}
+
+@-ms-keyframes mainDown {
+  0% { top: 0px; }
+  100% { top: 100px; }
+}
+
+@-o-keyframes mainDown {
+  0% { top: 0px; }
+  100% { top: 100px; }
+}
+
+
+.main.mobile{
+  top:100px;
+}
+
+.main{
+  position: relative;
+  top: 0px;
+}
+
+.main.mobile-add.mobile-add-active{
+  -webkit-animation: mainDown $animation-speed ease;
+  -moz-animation: mainDown $animation-speed ease;
+  -ms-animation: mainDown $animation-speed ease;
+  -o-animation: mainDown $animation-speed ease;
+  animation: mainDown $animation-speed ease;
+}
+
+.main.mobile-remove.mobile-remove-active{
+  -webkit-animation: mainUp $animation-speed ease;
+  -moz-animation: mainUp $animation-speed ease;
+  -ms-animation: mainUp $animation-speed ease;
+  -o-animation: mainUp $animation-speed ease;
+  animation: mainUp $animation-speed ease;
+}
+
+
+.world-anchor.mobile{
+  top:100px;
+}
+
+.world-anchor{
+  position: relative;
+  top: 0px;
+}
+
+.main.mobile-add.mobile-add-active{
+  -webkit-animation: mainDown $animation-speed ease;
+  -moz-animation: mainDown $animation-speed ease;
+  -ms-animation: mainDown $animation-speed ease;
+  -o-animation: mainDown $animation-speed ease;
+  animation: mainDown $animation-speed ease;
+}
+
+.main.mobile-remove.mobile-remove-active{
+  -webkit-animation: mainUp $animation-speed ease;
+  -moz-animation: mainUp $animation-speed ease;
+  -ms-animation: mainUp $animation-speed ease;
+  -o-animation: mainUp $animation-speed ease;
+  animation: mainUp $animation-speed ease;
+}
+
+
+
+.cornerLogoActive.corner-logo.mobile{
+  top:100px;
+}
+
+.cornerLogoActive.corner-logo{
+  top: 0px;
+}
+
+.cornerLogoActive.corner-logo.mobile-add.mobile-add-active{
+  -webkit-animation: mainDown $animation-speed ease;
+  -moz-animation: mainDown $animation-speed ease;
+  -ms-animation: mainDown $animation-speed ease;
+  -o-animation: mainDown $animation-speed ease;
+  animation: mainDown $animation-speed ease;
+}
+
+.cornerLogoActive.corner-logo.mobile-remove.mobile-remove-active{
+  -webkit-animation: mainUp $animation-speed ease;
+  -moz-animation: mainUp $animation-speed ease;
+  -ms-animation: mainUp $animation-speed ease;
+  -o-animation: mainUp $animation-speed ease;
+  animation: mainUp $animation-speed ease;
+}
+
+
+
+
+
+
+
+@keyframes popUp {
+  0% { top: 130px; }
+  100% { top: 25px; }
+}
+
+@-webkit-keyframes popUp {
+  0% { top: 130px; }
+  100% { top: 25px; }
+}
+
+@-moz-keyframes popUp {
+  0% { top: 130px; }
+  100% { top: 25px; }
+}
+
+@-ms-keyframes popUp {
+  0% { top: 130px; }
+  100% { top: 25px; }
+}
+
+@-o-keyframes popUp {
+  0% { top: 130px; }
+  100% { top: 25px; }
+}
+
+
+
+@keyframes popDown {
+  0% { top: 25px; }
+  100% { top: 130px; }
+}
+
+@-webkit-keyframes popDown {
+  0% { top: 25px; }
+  100% { top: 130px; }
+}
+
+@-moz-keyframes popDown {
+  0% { top: 25px; }
+  100% { top: 130px; }
+}
+
+@-ms-keyframes popDown {
+  0% { top: 25px; }
+  100% { top: 130px; }
+}
+
+@-o-keyframes popDown {
+  0% { top: 25px; }
+  100% { top: 130px; }
+}
+
+
+
+.nav-pop.popVisible{
+  display: none;
+}
+
+.nav-pop.popPosition{
+  top:130px;
+}
+
+
+.nav-pop.popPosition-add.popPosition-add-active{
+  -webkit-animation: popDown $animation-speed ease;
+  -moz-animation: popDown $animation-speed ease;
+  -ms-animation: popDown $animation-speed ease;
+  -o-animation: popDown $animation-speed ease;
+  animation: popDown $animation-speed ease;
+}
+
+.nav-pop.popPosition-remove.popPosition-remove-active{
+  -webkit-animation: popUp $animation-speed ease;
+  -moz-animation: popUp $animation-speed ease;
+  -ms-animation: popUp $animation-speed ease;
+  -o-animation: popUp $animation-speed ease;
+  animation: popUp $animation-speed ease;
+}
+
+
+
+.rect{
+  fill: #FFFFFF;
+  -webkit-animation: all $animation-speed ease;
+  -moz-animation: all $animation-speed ease;
+  -ms-animation: all $animation-speed ease;
+  -o-animation: all $animation-speed ease;
+  animation: all $animation-speed ease;
+}
+
+
+#rect.popColor{
+  fill: #FFFFFF;
+  -webkit-animation: all $animation-speed ease;
+  -moz-animation: all $animation-speed ease;
+  -ms-animation: all $animation-speed ease;
+  -o-animation: all $animation-speed ease;
+  animation: all $animation-speed ease;
+}

@@ -1,0 +1,43 @@
+{
+  "category":"FERGIE",
+  "categoryNavigation":"fergie",
+  "cover":"images/worldoftheblonds/specialprojects/25_fergie_black_eyed_peas/cover.jpg",
+  "index":"25",
+  "items":[
+    {
+      "src":"images/worldoftheblonds/specialprojects/25_fergie_black_eyed_peas/beps-in-katie-eary.jpg",
+      "look":"1",
+      "caption":"B Akerlund"
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/25_fergie_black_eyed_peas/FERGIE-BLACK-EYED-PEAS-THE-END-TOUR-STYLED-BY-B.-AKERLUND.jpg",
+      "look":"2",
+      "caption":"B Akerlund"
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/24_fergie_new_years/fergie-half-shirt-half-dress-new-years-eve-01.jpg",
+      "look":"3",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/24_fergie_new_years/fergie-half-shirt-half-dress-new-years-eve-23.jpg",
+      "look":"4",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/24_fergie_new_years/fergie-half-shirt-half-dress-new-years-eve-24.jpg",
+      "look":"5",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/24_fergie_new_years/screen-shot-1.png",
+      "look":"6",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/24_fergie_new_years/screen-shot-2.jpg",
+      "look":"7",
+      "caption":""
+    }
+  ]
+}

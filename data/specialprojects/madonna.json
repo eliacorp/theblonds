@@ -1,0 +1,47 @@
+{
+  "category":"MADONNA STYLED BY B AKERLUND",
+  "categoryNavigation":"madonna",
+  "videoID":"169606883",
+  "videoHandle":"f877dd179031c82baaac455e443478b54ec23d43",
+  "profileId": "119",
+  "cover":"images/worldoftheblonds/specialprojects/04_madonna/cover.jpg",
+
+  "index":"4",
+  "items":[
+    {
+      "src":"images/worldoftheblonds/specialprojects/04_madonna/MAD_lvl_01.jpg",
+      "look":"1",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/04_madonna/madonna-living-for-love-rebel-heart-video121.jpg",
+      "look":"2",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/04_madonna/Screen-Shot-2015-09-27-at-2.46.43-PM.jpg",
+      "look":"3",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/04_madonna/Screen-Shot-2015-09-27-at-2.47.05-PM.jpg",
+      "look":"4",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/04_madonna/Screen-Shot-2015-09-27-at-2.47.47-PM.jpg",
+      "look":"5",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/04_madonna/Screen-Shot-2015-09-27-at-2.48.51-PM.jpg",
+      "look":"6",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/04_madonna/Screen-Shot-2015-09-27-at-2.50.03-PM.jpg",
+      "look":"7",
+      "caption":""
+    }
+  ]
+}

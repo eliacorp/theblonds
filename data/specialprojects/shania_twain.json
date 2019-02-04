@@ -1,0 +1,23 @@
+{
+  "category":"SHANIA TWAIN STYLED BY TIFFANY GIFFORD",
+  "categoryNavigation":"shania_twain",
+  "cover":"images/worldoftheblonds/specialprojects/19_shania_twain/cover.jpg",
+  "index":"19",
+  "items":[
+    {
+      "src":"images/worldoftheblonds/specialprojects/19_shania_twain/B9317745145Z.1_20150615214112_000_GPLB3DCQQ.1-0.jpg",
+      "look":"1",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/19_shania_twain/shania-2.jpg",
+      "look":"2",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/19_shania_twain/STshania0723081437533228.jpg",
+      "look":"3",
+      "caption":""
+    }
+  ]
+}

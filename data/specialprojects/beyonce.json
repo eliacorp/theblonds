@@ -1,0 +1,54 @@
+{
+  "category":"BEYONCE STYLED BY TY HUNTER",
+  "categoryNavigation":"beyonce",
+  "cover":"images/worldoftheblonds/specialprojects/03_beyonce/cover.jpg",
+  "index":"3",
+  "items":[
+    {
+      "src":"images/worldoftheblonds/specialprojects/03_beyonce/4-Beyonce-2011.jpg",
+      "look":"1",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/03_beyonce/beyonce_2.jpg",
+      "look":"2",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/03_beyonce/beyonce-julien-macdonald-mrs-carter-show-world-tour-4.jpg",
+      "look":"3",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/03_beyonce/tumblr_m4px58AmB41rqgjz2o1_1280.jpg",
+      "look":"4",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/03_beyonce/tumblr_m4pz14aklS1rqgjz2o1_1280.jpg",
+      "look":"5",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/03_beyonce/tumblr_mxasgdiZ0N1rqgjz2o1_1280.jpg",
+      "look":"6",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/03_beyonce/tumblr_mxasicXrdM1rqgjz2o1_1280.jpg",
+      "look":"7",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/03_beyonce/tumblr_n1o0jggz881rqgjz2o1_1280.jpg",
+      "look":"8",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/03_beyonce/tumblr_ncxe1fsCus1thnatso1_1280.jpg",
+      "look":"9",
+      "caption":""
+    }
+
+  ]
+}

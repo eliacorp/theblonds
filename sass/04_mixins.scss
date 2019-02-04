@@ -1,0 +1,297 @@
+//---------------------------------------------------------------MEDIA QUERIES---------------------------------------------------------------------
+$break-phone: 767px;
+$break-phone-landscape: 767px;
+$break-tablet: 1022px;
+$break-tablet-landscape: 1024px;
+$break-laptop-small: 1279px;
+$break-laptop-large: 1920px;
+$break-desktop: 50000px;
+/*$break-large-desktop: 2500px;*/
+/*$break-infinite: 500000px;*/
+
+@mixin respond-to($media) {
+/*  @if $media == large-desktop {
+    @media only screen and (min-width: $break-large-desktop + 1) and (max-width: $break-infinite) { @content; }
+  }*/
+  @if $media == desktop {
+    @media only screen and (min-width: $break-laptop-large + 1) and (max-width: $break-desktop) { @content; }
+  }
+  @else if $media == laptop-large {
+    @media only screen and (min-width: $break-laptop-small + 1) and (max-width: $break-laptop-large) { @content; }
+  }
+  @else if $media == laptop-small {
+    @media only screen and (min-width: $break-tablet + 1) and (max-width: $break-laptop-small) { @content; }
+  }
+
+  ////////////|||||||||||..just changed the tablet media query below because it was not reading the landscape view: 1024px is the tablet landscape width..||||||||||||||\\\\\\\\\\
+  @else if $media == touching-nav {
+    @media only screen and (min-width: 769px) and (max-width: 916px) { @content; }
+  }
+
+
+  @else if $media == tablet-landscape {
+    @media only screen and (min-width: $break-phone + 1) and (max-width: $break-tablet-landscape) and (orientation: landscape) { @content; }
+  }
+  @else if $media == tablet-portrait {
+    @media only screen and (min-width: $break-phone + 1) and (max-width: $break-tablet) and (orientation: portrait) { @content; }
+  }
+  @else if $media == phone {
+    @media only screen and (min-width: 0px) and (max-width: $break-phone) { @content; }
+  }
+
+  //These are only for the real device
+  @else if $media == tablet-landscape-device {
+    @media only screen and (min-device-width: $break-phone + 1) and (max-device-width: $break-tablet) and (orientation: landscape) { @content; }
+  }
+  @else if $media == tablet-portrait-device {
+    @media only screen and (min-device-width: $break-phone + 1) and (max-device-width: $break-tablet) and (orientation: portrait) { @content; }
+  }
+  @else if $media == phone-device {
+    @media only screen and (min-width: 0px) and (max-device-width: $break-phone) { @content; }
+  }
+  @else if $media == phone-landscape-device {
+        @media only screen and (min-width: 0px) and (max-width: $break-phone) and (orientation: landscape) { @content; }
+  }
+
+
+}
+
+
+@mixin anchor-title($width: 300px){
+	position: relative;
+	height: auto;
+	width: 300px;
+	display: block;
+	left: 50%;
+	margin-left: -150px;
+	margin-bottom: 70px;
+	padding-top: 70px;
+	text-align: center;
+	font-size: $font-size-title;
+}
+
+
+
+
+
+@mixin image-fade($image-faded: 0.8){
+opacity: 1;
+-webkit-transition: opacity 500ms ease;
+-moz-transition: opacity 500ms ease;
+-ms-transition: opacity 500ms ease;
+-o-transition: opacity 500ms ease;
+transition: opacity 500ms ease;
+	&:hover {
+	  opacity: $image-faded;
+	}
+}
+
+
+@mixin section-header(){
+	position: relative;
+	display: block;
+	width: 100vw;
+	height: 100px;
+	border: 1px solid #000000;
+	h1{
+		position:absolute;
+		display: block;
+		width: 100px;
+		left: 50%;
+		margin-left: -50px;
+		line-height: 100px;
+		text-align: center;
+	}
+}
+
+
+
+
+
+@mixin loader-fade-in($fade-loader-in: 2s){
+	animation: textIn $fade-loader-in both ease;
+	-webkit-animation: textIn $fade-loader-in both ease;
+	-moz-animation: textIn $fade-loader-in both ease;
+	-ms-animation: textIn $fade-loader-in both ease;
+	-o-animation: textIn $fade-loader-in both ease;
+}
+
+@mixin loader-fade-out($fade-loader-out: 2s){
+	animation: textOut $fade-loader-out both ease 0s;
+	-webkit-animation: textOut $fade-loader-out both ease 0s;
+	-moz-animation: textOut $fade-loader-out both ease 0s;
+	-ms-animation: textOut $fade-loader-out both ease 0s;
+	-o-animation: textOut $fade-loader-out both ease 0s;
+}
+
+
+
+
+@mixin hover-images-opacity{
+
+  transition:         opacity $transition-medium ease;
+  -webkit-transition: opacity $transition-medium ease;
+  -moz-transition:    opacity $transition-medium ease;
+  -ms-transition:     opacity $transition-medium ease;
+  -o-transition:      opacity $transition-medium ease;
+  opacity: 1;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+}
+
+
+
+
+//...........SOCIAL
+
+@mixin hover-effect-opacity-tiles($opacity: 1, $hover: .7){
+  opacity: $opacity;
+  transition:         opacity $transition-medium ease;
+  -webkit-transition: opacity $transition-medium ease;
+  -moz-transition:    opacity $transition-medium ease;
+  -ms-transition:     opacity $transition-medium ease;
+  -o-transition:      opacity $transition-medium ease;
+  opacity: $hover;
+
+  &:hover {
+    opacity: $hover;
+    @include respond-to(phone-device) {
+      opacity: $opacity !important;
+    }
+    @include respond-to(tablet-portrait-device) {
+      opacity: $opacity !important;
+    }
+    @include respond-to(tablet-landscape-device) {
+      opacity: $opacity !important;
+    }
+  }
+
+}
+
+
+@mixin hover-effect-color($color, $hover){
+  color: $color;
+  transition:         color $transition-medium ease;
+  -webkit-transition: color $transition-medium ease;
+  -moz-transition:    color $transition-medium ease;
+  -ms-transition:     color $transition-medium ease;
+  -o-transition:      color $transition-medium ease;
+  &:hover {
+    color: $hover;
+    @include respond-to(phone-device) {
+        color: $color;
+    }
+    @include respond-to(tablet-portrait-device) {
+        color: $color;
+    }
+    @include respond-to(tablet-landscape-device) {
+        color: $color;
+    }
+  }
+
+}
+
+
+$transition-medium: .6s;
+@mixin hover-effect-color-gold($color: $white, $hover: $gold){
+  // color: $color;
+  transition:         color $transition-medium ease;
+  -webkit-transition: color $transition-medium ease;
+  -moz-transition:    color $transition-medium ease;
+  -ms-transition:     color $transition-medium ease;
+  -o-transition:      color $transition-medium ease;
+  // opacity: $hover;
+
+  &:hover {
+    color: $hover !important;
+    @include respond-to(phone-device) {
+        color: $white !important;
+    }
+    @include respond-to(tablet-portrait-device) {
+        color: $white !important;
+    }
+    @include respond-to(tablet-landscape-device) {
+        color: $white !important;
+    }
+  }
+}
+
+
+
+$transition-medium: .6s;
+@mixin hover-effect-fill-gold($color: $white, $hover: $gold){
+  // color: $color;
+  transition:         color $transition-medium ease;
+  -webkit-transition: color $transition-medium ease;
+  -moz-transition:    color $transition-medium ease;
+  -ms-transition:     color $transition-medium ease;
+  -o-transition:      color $transition-medium ease;
+  // opacity: $hover;
+
+  &:hover {
+    fill: $hover !important;
+    @include respond-to(phone-device) {
+        fill: $white !important;
+    }
+    @include respond-to(tablet-portrait-device) {
+        fill: $white !important;
+    }
+    @include respond-to(tablet-landscape-device) {
+        fill: $white !important;
+    }
+  }
+}
+
+
+@mixin transitionOpacity(){
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+
+
+@mixin transform-element($coordinate){
+  transform: $coordinate;
+  -ms-transform: $coordinate; /* IE 9 */
+ 	-webkit-transform: $coordinate; /* Safari */
+  transform-origin: 0 0;
+}
+
+
+@mixin respond-to-devices() {
+    @media only screen and (min-width: $break-phone + 1) and (max-width: $break-tablet-landscape) and (orientation: landscape) { @content; }
+    @media only screen and (min-width: $break-phone + 1) and (max-width: $break-tablet) and (orientation: portrait) { @content; }
+    @media only screen and (min-width: 0px) and (max-width: $break-phone) { @content; }
+}
+
+
+
+@mixin hover-effect-border($color, $hover){
+  border: 1px solid $color;
+  transition:         all $transition-medium ease;
+  -webkit-transition: all $transition-medium ease;
+  -moz-transition:    all $transition-medium ease;
+  -ms-transition:     all $transition-medium ease;
+  -o-transition:      all $transition-medium ease;
+  &:hover{
+    border: 1px solid $hover;
+    @include respond-to(phone-device){
+    }
+  }
+}
+
+
+@mixin image-invisible($image-faded: 0.8){
+  opacity: 0;
+  -webkit-transition: opacity 500ms ease;
+  -moz-transition: opacity 500ms ease;
+  -ms-transition: opacity 500ms ease;
+  -o-transition: opacity 500ms ease;
+  transition: opacity 500ms ease;
+}

@@ -1,0 +1,358 @@
+.anchor-contact{
+  display: table;
+  width: 100vw;
+  height: calc(100vh - 100px);
+  padding-top: 100px;
+  background-color: #000000;
+  @include respond-to(phone){
+    height: calc(100vh - 100px);
+    width: 100vw;
+    display: block;
+    padding-top: 100px;
+    position: fixed;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+
+.contact-section-header{
+  @include section-header;
+}
+
+
+.contact-image{
+  width: 65vw;
+  height: calc(100vh - 100px);
+  position: absolute;
+  left:0;
+  top: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @include respond-to-devices(){
+    width: 100vw;
+    height:70vh;
+    position: relative;
+    top: 0;
+  }
+}
+
+
+.contact-content{
+  width: 35vw;
+  height: calc(100vh - 100px);
+  position: absolute;
+  right: 0;
+  top: 100px;
+  background-color: #000000;
+  @include respond-to-devices(){
+    width: 100vw;
+    height: 450px;
+    margin-bottom: 100px;
+    position: relative;
+    top: 0;
+  }
+  .contact-inside-wrapper{
+    width: 100%;
+    height: 100%;
+    // @include respond-to-devices(){
+    //   // display: block;
+    // }
+    tr{
+      td{
+        .contact-col{
+          @include respond-to-devices(){
+            width: 100vw;
+            /* left: 50%; */
+            position: relative;
+            margin-top: 50px;
+          }
+          .contact-form{
+            width: 100%;
+            height: auto;
+                  #messages{
+                    height: $line-height-paragraph;
+                    line-height: $line-height-paragraph;
+                    font-size: $font-size-paragraph;
+                    color: #FFFFFF;
+                  }
+                  .alert-danger{
+                    width: 24vw;
+                    height: auto;
+                    left: 50%;
+                    position: relative;
+                    margin-left: -12vw;
+
+                    line-height: $line-height-paragraph;
+                    font-size: $font-size-paragraph;
+                    color: #FFFFFF;
+                    @include respond-to-devices(){
+                      width: 80vw;
+                      margin-left: -40vw;
+                    }
+                    p{
+                      height: auto;
+                      line-height: $line-height-paragraph;
+                      font-size: $font-size-paragraph;
+                      color: #FFFFFF;
+                    }
+
+                  }
+                  .alert-success{
+                    width: 24vw;
+                    height: auto;
+                    left: 50%;
+                    position: relative;
+                    margin-left: -12vw;
+
+                    line-height: $line-height-paragraph;
+                    font-size: $font-size-paragraph;
+                    color: #FFFFFF;
+                    @include respond-to-devices(){
+                      width: 80vw;
+                      margin-left: -40vw;
+                    }
+
+                  }
+                  form{
+                    width: 30vw;
+                    left: 50%;
+                    position: relative;
+                    margin-left: -15vw;
+                    @include respond-to-devices(){
+                      width: 80vw;
+                      margin-left: -40vw;
+                    }
+
+                    .form-text{
+                      width: 100%;
+                      height: auto;
+                      margin-bottom: $margin-title;
+                      p{
+                        text-align: left;
+                        height: $line-height-paragraph;
+                        line-height: $line-height-paragraph;
+                        font-size: $font-size-nav;
+                        color: #FFFFFF;
+                      }
+                    }
+                    .form-group1{
+                      width: 100%;
+                      height: auto;
+                      input{
+                        width: 100%;
+                        height: $line-height-paragraph;
+                        line-height: $line-height-paragraph;
+                        font-size: $font-size-paragraph;
+                        background-color: #000000;
+                        border: 1px solid $grey;
+                        outline: none;
+
+                      }
+                    }
+                    .form-group2{
+                      width: 100%;
+                      height: auto;
+                      margin-top: $margin-paragraph;
+                      input{
+                        width: 100%;
+                        height: $line-height-paragraph;
+                        line-height: $line-height-paragraph;
+                        font-size: $font-size-paragraph;
+                        background-color: #000000;
+                        border: 1px solid $grey;
+                        outline: none;
+
+                      }
+                    }
+
+                    .drop-down{
+                      width: 100%;
+                      height: auto;
+                      margin-top: $margin-paragraph;
+                      .contact-dropdown{
+                        width: 100%;
+                        height: $line-height-paragraph;
+                        line-height: $line-height-paragraph;
+                        font-size: $font-size-paragraph;
+                        color: $grey;
+                        background-color: #000000;
+                        border: 1px solid $grey;
+                        outline: none;
+                        .placeholder-text{
+                          width: 100%;
+                          height: $line-height-paragraph;
+                          line-height: $line-height-paragraph;
+                          font-size: $font-size-paragraph;
+                          color: $grey;
+                          background-color: #000000;
+                          border: 1px solid $grey;
+                          outline: none;
+
+                        }
+                        option{
+                          width: 100%;
+                          height: $line-height-paragraph;
+                          line-height: $line-height-paragraph;
+                          font-size: $font-size-paragraph;
+                          background-color: #000000;
+                          border: 1px solid $grey;
+                          outline: none;
+                          border-radius: 0;
+                          -webkit-appearance: none;
+
+                        }
+                      }
+                      .contact-select-arrow{
+                        b{
+
+                        }
+                      }
+                    }
+                      .form-group3{
+                        width: 100%;
+                        height: auto;
+                        margin-top: $margin-paragraph;
+                        textarea{
+                          width: 100%;
+                          height: 100px;
+                          line-height: $line-height-paragraph;
+                          font-size: $font-size-paragraph;
+                          background-color: #000000;
+                          border: 1px solid $grey;
+                          outline: none;
+
+                        }
+                      }
+
+                      button{
+                        width: 100%;
+                        height: $line-height-paragraph;
+                        margin-top: $margin-paragraph;
+                        text-decoration: none;
+
+                        // line-height: $line-height-paragraph;
+                        font-size: $font-size-paragraph;
+                        background-color: #000000;
+                        border: 1px solid $grey;
+                        outline: none;
+                        padding:0;
+                        @include hover-effect-color($grey, #FFFFFF);
+                        @include hover-effect-border($grey, #FFFFFF);
+
+
+                      }
+                    }//form
+
+
+            }//contact form
+
+          }
+        }//td
+      }//tr
+    }//contact-inside-wrapper
+  }//contact content
+
+
+
+.contact-company{
+  margin-top: 25px;
+  width: 30vw;
+  position: relative;
+  left: 50%;
+  margin-left: -15vw;
+  text-align: left;
+  @include respond-to-devices(){
+    width: 80vw;
+    margin-left: -40vw;
+  }
+  a{
+    text-transform: lowercase;
+    text-align: left;
+    height: $line-height-paragraph;
+    line-height: $line-height-paragraph;
+    font-size: $font-size-paragraph;
+    color: #FFFFFF;
+  }
+}
+
+
+  .site-by{
+    width: 30vw;
+    position: relative;
+    left: 50%;
+    margin-left: -15vw;
+
+    @include respond-to-devices(){
+      width: 80vw;
+      margin-left: -40vw;
+    }
+    p{
+      height: $line-height-paragraph;
+      line-height: $line-height-paragraph;
+      font-size: $font-size-paragraph;
+      color: $grey;
+      text-align: left;
+      a{
+        height: $line-height-paragraph;
+        line-height: $line-height-paragraph;
+        font-size: $font-size-paragraph;
+        color: $grey;
+        text-align: left;
+        @include hover-effect-color($grey, #FFFFFF);
+
+      }
+    }
+  }
+
+
+
+  .back-button{
+    width: 100%;
+    height: auto;
+    a{
+      height: $line-height-paragraph;
+      line-height: $line-height-paragraph;
+      font-size: $font-size-paragraph;
+      color: #606060;
+      @include hover-effect-color(#606060, #FFFFFF);
+    }
+  }
+
+input, textarea, select{
+  padding-left: 5px;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  border-radius:0px;
+  color: $grey;
+  @include hover-effect-border($grey, #FFFFFF);
+}
+
+
+input.ng-pristine, textarea.ng-pristine, select.ng-pristine, option.ng-pristine {
+ color: $grey;
+}
+
+ input.ng-valid.ng-touched, textarea.ng-valid.ng-touched, select.ng-valid.ng-touched, option.ng-valid.ng-touched {
+  color: #FFFFFF !important;
+}
+
+ input.ng-invalid.ng-touched, textarea.ng-invalid.ng-touched, select.ng-invalid.ng-touched, option.ng-invalid.ng-touched {
+  color: $grey;
+
+}
+
+
+
+.contactDisabled{
+  border: 1px solid #3f3f3f !important;
+  color: #3f3f3f !important;
+  :hover{
+    border: 1px solid #3f3f3f !important;
+    color: #3f3f3f !important;
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "category":"BETTE MIDLER",
+  "categoryNavigation":"bette_midler",
+  "cover":"images/worldoftheblonds/specialprojects/09_bette_midler/cover.jpg",
+  "index":"9",
+  "items":[
+    {
+      "src":"images/worldoftheblonds/specialprojects/09_bette_midler/bette-midler-still-bewitches-on-her-divine-intervention-tour-body-image-1432132700.jpg",
+      "look":"1",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/09_bette_midler/bettemidler-0514c.jpg",
+      "look":"2",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/09_bette_midler/STmidler0624041435027866.jpg",
+      "look":"3",
+      "caption":""
+    }
+
+  ]
+}

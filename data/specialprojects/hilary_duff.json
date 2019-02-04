@@ -1,0 +1,18 @@
+{
+  "category":"HILLARY DUFF STYLED BY BRETT NELSON",
+  "categoryNavigation":"hilary_duff",
+  "cover":"images/worldoftheblonds/specialprojects/26_hilary_duff/cover.jpg",
+  "index":"26",
+  "items":[
+    {
+      "src":"images/worldoftheblonds/specialprojects/26_hilary_duff/DUFF.jpg",
+      "look":"1",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/26_hilary_duff/hilary-duff-1.jpg",
+      "look":"2",
+      "caption":""
+    }
+  ]
+}

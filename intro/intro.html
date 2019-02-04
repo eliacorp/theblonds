@@ -1,0 +1,35 @@
+<div class="anchor anchor-intro" id="introHash" ng-controller="introCtrl" width="100vw" height="100vh">
+
+ <div class="play-button" id="play-button" ng-click="playVideoiPad()" ng-hide="hidePlayButton"><p>play</p></div>
+
+  <div class="intro-wrapper">
+
+    <video src="https://player.vimeo.com/external/150413984.hd.mp4?s=d821886e4bc8dc839a6caa5db08a1aa18fef6cdb&profile_id=113" type="video/mp4" id="video" class="video-js vjs-default-skin video-intro" data-setup='{ "controls": true, "autoplay": true, "preload": "auto", "loop": true}'  width="100vw" height="100vh"></video>
+  </div>
+
+  <!-- 3d object -->
+  <div id="container" class="canvas-wrapper" style="width: 100vw; height: 100vh;"></div>
+
+
+<div class="intro-follow" ng-hide="hideFollow" ng-mouseover="show_share_intro=true" ng-mouseout="show_share_intro=false">
+  <a class="intro-follow-a" href="https://www.instagram.com/theblondsny/" target="_blank" ng-hide="show_share_intro"><p>follow us</p></a>
+  <div ng-show="show_share_intro" class="intro-follow-icons">
+    <a href="https://www.facebook.com/TheBlonds/" target="_blank">FB</a>
+    <a href="https://twitter.com/theblondsny" target="_blank">TW</a>
+    <a href="https://www.instagram.com/theblondsny/" target="_blank">IG</a>
+  </div>
+</div>
+
+
+
+  <!-- mobile gallery instead of the video -->
+  <img src="images/9.jpg" alt="" id="mobile-gallery" ng-hide="hideGallery">
+  <div id="background" ng-hide="hideBackground"></div>
+
+
+ 
+
+
+
+
+</div>

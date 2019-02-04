@@ -1,0 +1,113 @@
+.anchor-about{
+  height: calc(100vh - 100px);
+  width: 100vw;
+  display: table;
+  padding-top: 100px;
+  position: relative;
+  @include respond-to(phone){
+    height: calc(100vh - 100px);
+    width: 100vw;
+    display: block;
+    padding-top: 100px;
+    position: fixed;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+  .about-title{
+    color: #FFFFFF;
+    position: absolute;
+  }
+}
+
+
+
+
+.about-section-header{
+  @include section-header;
+}
+
+
+
+  .about-image{
+    width: 65vw;
+    height: 100vh;
+    display: block;
+    left:0;
+    top:0;
+    background-image: url('images/about-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    // -webkit-filter: grayscale(100%);
+    // -moz-filter: grayscale(100%);
+    // filter: grayscale(100%);
+    @include respond-to-devices(){
+      width: 100vw;
+      height:70vh;
+      position: relative;
+      top:0px;
+    }
+  }
+
+  .about-text{
+    width: 35vw;
+    height: calc(100vh - 100px);
+    display: block;
+    position: absolute;
+    right: 0;
+    top:100px;
+    background-color: #000000;
+    @include respond-to-devices(){
+      width: 100vw;
+      position: relative;
+      top:0px;
+      height:400px;
+      margin-bottom: 60px;
+    }
+
+    table{
+      width: 100%;
+      height: 100%;
+      @include respond-to-devices(){
+        display: block;
+      }
+      tr{
+        td{
+          vertical-align: middle;
+          height: 100%;
+          .about-text-content{
+            display: block;
+            left: 50%;
+            position: relative;
+            margin-left: -15vw;
+            width: 30vw;
+            @include respond-to-devices(){
+              margin-left: -45vw;
+              width: 90vw;
+              position: absolute;
+              margin-top: 50px;
+            }
+
+
+            p{
+              font-size: $font-size-nav;
+              line-height: $line-height-paragraph;
+              color: #FFFFFF;
+              text-align: left;
+              margin-bottom: $margin-title;
+            }
+            .about-span{
+              display: block;
+              height: auto;
+              font-size: $font-size-paragraph;
+              color: #FFFFFF;
+              line-height: $line-height-paragraph;
+              text-align: left;
+            }
+          }
+        }
+      }
+    }
+
+
+  }

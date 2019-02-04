@@ -1,0 +1,24 @@
+{
+  "category":"ke$ha",
+  "categoryNavigation":"kesha",
+  "cover":"images/worldoftheblonds/specialprojects/15_kesha/cover.jpg",
+
+  "index":"15",
+  "items":[
+    {
+      "src":"images/worldoftheblonds/specialprojects/15_kesha/maxresdefault.jpg",
+      "look":"1",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/15_kesha/static1.squarespace.jpg",
+      "look":"2",
+      "caption":""
+    },
+    {
+      "src":"images/worldoftheblonds/specialprojects/15_kesha/tumblr_mo2bhmva5l1r4a8vpo4_1280.jpg",
+      "look":"3",
+      "caption":""
+    }
+  ]
+}
